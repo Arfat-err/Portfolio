@@ -1,9 +1,9 @@
 const menuIcon = document.querySelector("#menuIcon");
-const sideBar = document.querySelector(".side-bar-list")
-const removeSideBar = document.querySelector(".cross")
+const sideBar = document.querySelector(".sidebar")
+const removeSideBar = document.querySelector(".sidebar__close-icon")
 
-    menuIcon.addEventListener("click",()=>{
-    console.log("hello")
+menuIcon.addEventListener("click",()=>{
+    // console.log("hello")
     sideBar.style.display = "flex";
 })
 
