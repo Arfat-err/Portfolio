@@ -486,9 +486,9 @@ section {
 
 .projects__container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     justify-content: space-between;
-    gap: 1.2rem 2.8rem;
+    gap: 1rem 1rem;
 }
 
 .projects__container .project-card {
