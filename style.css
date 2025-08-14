@@ -487,8 +487,8 @@ section {
 .projects__container {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    justify-content: space-between;
-    gap: 1rem 1rem;
+    /* justify-content: space-between; */
+    gap: 1.2rem 2.8rem;
 }
 
 .projects__container .project-card {
